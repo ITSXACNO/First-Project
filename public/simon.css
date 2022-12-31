@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+
+#title{
+    padding-top: 20px;
+    font-size: 3rem;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.btn{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+}
+
+.green{
+    background-color: green;
+    position: relative;
+    right: 150px;
+}
+.blue{
+    background-color: blue;
+    position: relative;
+    left: 150px;
+    bottom: 240px;
+}
+.red{
+    background-color: red;
+    position: relative;
+    right: 150px;
+    bottom: 250px;
+}
+.yellow{
+    background-color: yellow;
+    position: relative;
+    left: 150px;
+    bottom: 490px;
+}
+
+.game-over{
+    background-color: red;
+}
+
+.pressed{
+    background-color: grey;
+}
